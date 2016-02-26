@@ -17,8 +17,7 @@ public abstract class Kort implements Comparable<Kort>, Cloneable {
 		this.etternavn = etternavn;
 		this.pin = pin;
 		this.kortnummer = ++antallkort;
-		
-		
+	
 		this.sperretKort = false;
 	}
 
